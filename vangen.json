@@ -1,0 +1,32 @@
+{
+    "domain": "go.cosmonity.xyz",
+    "docsDomain": "pkg.go.dev",
+    "index": true,
+    "repositories": [
+        {
+            "prefix": "example",
+            "url": "https://github.com/cosmonity/example"
+        },
+        {
+            "prefix": "chain-minimal",
+            "url": "https://github.com/cosmonity/chain-minimal"
+        },
+        {
+            "prefix": "cosmod",
+            "url": "https://github.com/cosmonity/cosmod"
+        },
+        {
+            "prefix": "evolve",
+            "subs": [
+                "runtime/v2",
+                "server/v2",
+                "server/v2/stf",
+                "server/v2/appmanager",
+                "server/v2/cometbft",
+                "store/v2"
+            ],
+            "url": "https://github.com/cosmonity/evolve",
+            "main": true
+        }
+    ]
+}
