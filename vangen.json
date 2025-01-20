@@ -13,7 +13,8 @@
         },
         {
             "prefix": "cosmod",
-            "url": "https://github.com/cosmonity/cosmod"
+            "url": "https://github.com/cosmonity/cosmod",
+            "hidden": true
         },
         {
             "prefix": "evolve",
@@ -25,8 +26,7 @@
                 "server/v2/cometbft",
                 "store/v2"
             ],
-            "url": "https://github.com/cosmonity/evolve",
-            "main": true
+            "url": "https://github.com/cosmonity/evolve"
         }
     ]
 }
