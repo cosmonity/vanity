@@ -12,8 +12,8 @@
             "url": "https://github.com/cosmonity/chain-minimal"
         },
         {
-            "prefix": "cosmod",
-            "url": "https://github.com/cosmonity/cosmod",
+            "prefix": "registry",
+            "url": "https://github.com/cosmonity/registry",
             "hidden": true
         },
         {
